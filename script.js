@@ -9,11 +9,10 @@ const message = document.getElementById("message");
 // งาน 1: เมื่อกดปุ่ม "ทักทาย" ให้แสดงข้อความของทีม
 helloBtn.addEventListener("click", function () {
   // แก้ข้อความในเครื่องหมายคำพูดเป็นคำทักทายของทีมตัวเอง
-  message.textContent = "สวัสดี!";
+  message.textContent = "konnichiwa";
 });
 
 // งาน 2: เมื่อกดปุ่ม "สลับโหมดมืด" ให้เพิ่มหรือลบ class "dark" ที่ body
 themeBtn.addEventListener("click", function () {
-  // เขียนโค้ดตรงนี้ 1 บรรทัด
-  // คำใบ้: document.body.classList.toggle("ชื่อ class");
+  document.body.classList.toggle("dark");
 });
