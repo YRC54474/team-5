@@ -1,8 +1,10 @@
 /* ===== ไฟล์ของคนที่ 2 (นักออกแบบ) ===== */
 /* ภารกิจ: ตกแต่งให้ครบอย่างน้อย 3 จุดที่มีคำว่า "งาน" */
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;600;700&display=swap');
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   margin: 24px;
   background-color: #f4f6f9;
   color: #2c3e50;
